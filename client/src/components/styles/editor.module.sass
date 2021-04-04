@@ -1,0 +1,113 @@
+.downloaderContainer
+  text-align: center
+  img
+    max-width: 500px
+  h1
+    color: rgba(0, 0, 0, 0.507)
+    span
+      font-size: 0.7em
+  .box
+    position: relative
+    input
+      width: 0.1px
+      height: 0.1px
+      opacity: 0
+      overflow: hidden
+      position: absolute
+      z-index: -1
+    label
+      max-width: 250px
+  .format-selector
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 20px
+    .radio
+      margin-right: 10px
+      color: rgba(68, 68, 68, 0.644)
+  .button
+    cursor: pointer
+    outline: none
+    display: block
+    margin-left: auto
+    margin-right: auto
+    margin-top: 20px
+    margin-bottom: 50px
+    letter-spacing: 2px
+    font-family: Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-weight: 700
+    text-transform: uppercase
+    padding: 10px 20px
+    border: none
+    border-radius: 5px
+    background: rgba(68, 68, 68, 0.644)
+    color: aliceblue
+    transition: all 0.3s cubic-bezier(0.65, -0.25, 0.25, 1.95)
+  .button:hover
+    letter-spacing: 4px
+  .alert
+    margin-left: auto
+    margin-right: auto
+    width: 50%
+    padding: 20px
+    background: #ec1b1b9a
+    color: #fff
+    letter-spacing: 2px
+    font-size: 13px
+    border-radius: 10px
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466)
+    animation: fadeIn 1s ease-in
+  .inputGroup
+    display: block
+    margin: 10px 0
+    .titleLabel
+      margin-right: 10px
+    .value
+      width: 30px
+      margin: 0 10px
+  .button
+    cursor: pointer
+    outline: none
+    display: block
+    margin-left: auto
+    margin-right: auto
+    margin-top: 20px
+    margin-bottom: 50px
+    letter-spacing: 2px
+    font-family: Roobert, 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-weight: 700
+    text-transform: uppercase
+    padding: 10px 20px
+    border: none
+    border-radius: 5px
+    background: rgba(68, 68, 68, 0.644)
+    color: aliceblue
+    transition: all 0.3s cubic-bezier(0.65, -0.25, 0.25, 1.95)
+    &:hover
+      letter-spacing: 4px
+  .box
+    position: relative
+    input
+      width: 0.1px
+      height: 0.1px
+      opacity: 0
+      overflow: hidden
+      position: absolute
+      z-index: -1
+    label
+      padding: 6px 20px
+      cursor: pointer
+      user-select: none
+      transition: 0.2s
+      text-transform: none
+      font-weight: 600
+
+@keyframes fadeIn
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+.resultBox
+  padding-bottom: 20px
